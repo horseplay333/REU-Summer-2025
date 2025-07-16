@@ -1,0 +1,1117 @@
+[{'decoder_trigger_q': shadow_q_insn_rd        10000
+  shadow_q_insn_imm       10000
+  shadow_q_ascii_instr    10000
+  shadow_q_insn_rs2       10000
+  shadow_q_insn_opcode    10000
+  shadow_q_insn_rs1       10000
+  dtype: int64},
+ {'instr_sub': shadow_mem_wdata         1310000
+  shadow_mem_addr          1130000
+  shadow_alu_shr           1100000
+  shadow_alu_shl           1100000
+  shadow_alu_out_q           10000
+  shadow_cpuregs_rs2       1190000
+  shadow_cpuregs_rs1       1080000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1100000
+  shadow_cpuregs_wrdata    1070000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_op1           1100000
+  shadow_mem_la_wdata      1280000
+  shadow_alu_eq            1100000
+  shadow_alu_ltu           1100000
+  shadow_alu_lts           1100000
+  dtype: int64},
+ {'instr_lbu': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_mem_rdata_word    1190000
+  shadow_mem_wordsize      1190000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wstrb      1190000
+  shadow_mem_la_wdata      1190000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'instr_lhu': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_mem_rdata_word    1190000
+  shadow_mem_wordsize      1190000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wstrb      1190000
+  shadow_mem_la_wdata      1190000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'instr_lb': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_mem_rdata_word    1190000
+  shadow_mem_wordsize      1190000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wstrb      1190000
+  shadow_mem_la_wdata      1190000
+  shadow_latched_is_lb     1190000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'instr_lh': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_mem_rdata_word    1190000
+  shadow_mem_wordsize      1190000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wstrb      1190000
+  shadow_mem_la_wdata      1190000
+  shadow_latched_is_lh     1190000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'is_lbu_lhu_lw': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wdata      1280000
+  shadow_latched_is_lu     1190000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'latched_is_lb': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wdata      1280000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'latched_is_lh': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wdata      1280000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'latched_is_lu': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wdata      1280000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'mem_rdata_word': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wdata      1280000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'mem_wordsize': shadow_mem_wdata         1130000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_mem_wstrb         1130000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_out           1220000
+  shadow_reg_op1           1240000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'reg_out': shadow_mem_wdata         1310000
+  shadow_alu_shl           1240000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1230000
+  shadow_dbg_rs2val        1280000
+  shadow_dbg_rs1val        1240000
+  shadow_cpuregs_wrdata    1220000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_reg_op1           1240000
+  shadow_mem_la_wdata      1280000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'latched_stalu': shadow_mem_wdata         1310000
+  shadow_alu_shl           1280000
+  shadow_alu_add_sub       1240000
+  shadow_alu_out_q         1250000
+  shadow_alu_out           1240000
+  shadow_cpuregs_rs2       1260000
+  shadow_cpuregs_rs1       1410000
+  shadow_dbg_rs2val        1280000
+  shadow_cpuregs_wrdata    1250000
+  shadow_reg_op2           1280000
+  shadow_reg_sh            1280000
+  shadow_mem_la_wdata      1280000
+  shadow_alu_eq            1240000
+  shadow_alu_ltu           1240000
+  shadow_alu_lts           1240000
+  dtype: int64},
+ {'is_alu_reg_reg': shadow_alu_out_q          1110000
+  shadow_alu_out            1100000
+  shadow_instr_add          1200000
+  shadow_instr_slt          1090000
+  shadow_is_slti_blt_slt    1100000
+  shadow_is_compare         1100000
+  shadow_alu_out_0          1100000
+  shadow_alu_out_0_q        1110000
+  dtype: int64},
+ {'instr_add': shadow_alu_out_q    10000
+  dtype: int64},
+ {'cpuregs_rs2': shadow_mem_wdata       1130000
+  shadow_alu_shl         1100000
+  shadow_alu_add_sub     1100000
+  shadow_alu_out_q       1330000
+  shadow_alu_out         1320000
+  shadow_dbg_rs2val      1100000
+  shadow_reg_op2         1100000
+  shadow_reg_sh          1100000
+  shadow_mem_la_wdata    1100000
+  shadow_alu_eq          1100000
+  shadow_alu_ltu         1100000
+  shadow_alu_lts         1100000
+  dtype: int64},
+ {'decoded_rs2': shadow_mem_wdata       1130000
+  shadow_alu_shl         1100000
+  shadow_alu_add_sub     1100000
+  shadow_alu_out_q       1330000
+  shadow_alu_out         1320000
+  shadow_dbg_rs2val      1100000
+  shadow_reg_op2         1100000
+  shadow_reg_sh          1100000
+  shadow_mem_la_wdata    1100000
+  shadow_alu_eq          1100000
+  shadow_alu_ltu         1100000
+  shadow_alu_lts         1100000
+  dtype: int64},
+ {'instr_sh': shadow_mem_wdata         1130000
+  shadow_mem_wstrb         1130000
+  shadow_mem_rdata_word    1120000
+  shadow_mem_wordsize      1120000
+  shadow_mem_la_wstrb      1120000
+  shadow_mem_la_wdata      1120000
+  dtype: int64},
+ {'instr_sb': shadow_mem_wdata         1130000
+  shadow_mem_wstrb         1130000
+  shadow_mem_rdata_word    1120000
+  shadow_mem_wordsize      1120000
+  shadow_mem_la_wstrb      1120000
+  shadow_mem_la_wdata      1120000
+  dtype: int64},
+ {'instr_bltu': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'instr_bgeu': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'instr_bne': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'instr_blt': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'instr_beq': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'instr_bge': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'is_sb_sh_sw': shadow_reg_pc           1110000
+  shadow_mem_wdata        1120000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1110000
+  Length: 135, dtype: int64},
+ {'instr_sltu': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q        10000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 136, dtype: int64},
+ {'instr_slti': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q        10000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 136, dtype: int64},
+ {'instr_slt': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q        10000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 136, dtype: int64},
+ {'instr_sltiu': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q        10000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 136, dtype: int64},
+ {'latched_compr': shadow_cpuregs_wrdata    1340000
+  dtype: int64},
+ {'instr_jalr': shadow_reg_pc           1080000
+  shadow_mem_wdata        1110000
+  shadow_mem_addr         1080000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1100000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1070000
+  Length: 135, dtype: int64},
+ {'is_alu_reg_imm': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shl          1060000
+  shadow_alu_add_sub      1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 132, dtype: int64},
+ {'reg_op1': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_out_q          10000
+  shadow_alu_out             1000
+                           ...   
+  shadow_latched_is_lh    1140000
+  shadow_latched_is_lb    1140000
+  shadow_alu_out_0           1000
+  shadow_alu_out_0_q        10000
+  shadow_cpuregs_write    1140000
+  Length: 132, dtype: int64},
+ {'instr_auipc': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 135, dtype: int64},
+ {'is_lb_lh_lw_lbu_lhu': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 133, dtype: int64},
+ {'decoded_imm': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1140000
+  Length: 135, dtype: int64},
+ {'instr_jal': shadow_reg_pc           1060000
+  shadow_mem_wdata        1070000
+  shadow_mem_addr         1060000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1100000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1050000
+  Length: 135, dtype: int64},
+ {'reg_op2': shadow_reg_pc           1140000
+  shadow_mem_wdata        1130000
+  shadow_mem_addr         1130000
+  shadow_alu_out_q          10000
+  shadow_alu_out             1000
+                           ...   
+  shadow_latched_is_lh    1140000
+  shadow_latched_is_lb    1140000
+  shadow_alu_out_0           1000
+  shadow_alu_out_0_q        10000
+  shadow_cpuregs_write    1140000
+  Length: 132, dtype: int64},
+ {'is_beq_bne_blt_bge_bltu_bgeu': shadow_reg_pc           1080000
+  shadow_mem_wdata        1090000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1080000
+  shadow_alu_shl          1080000
+                           ...   
+  shadow_alu_out_0_q      1060000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 138, dtype: int64},
+ {'alu_add_sub': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 138, dtype: int64},
+ {'instr_lui': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 135, dtype: int64},
+ {'instr_andi': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'instr_ori': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'instr_and': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'instr_or': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'instr_xor': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'instr_lw': shadow_reg_pc           1180000
+  shadow_mem_wdata        1200000
+  shadow_mem_addr         1200000
+  shadow_alu_shr          1170000
+  shadow_alu_shl          1170000
+                           ...   
+  shadow_alu_out_0_q      1240000
+  shadow_alu_eq           1170000
+  shadow_alu_ltu          1170000
+  shadow_alu_lts          1170000
+  shadow_cpuregs_write    1180000
+  Length: 133, dtype: int64},
+ {'cpuregs_rs1': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1140000
+  Length: 138, dtype: int64},
+ {'instr_xori': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'instr_sw': shadow_reg_pc           1110000
+  shadow_mem_wdata        1120000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1110000
+  Length: 138, dtype: int64},
+ {'instr_retirq': shadow_reg_pc           1100000
+  shadow_mem_wdata        1110000
+  shadow_mem_addr         1100000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1100000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1090000
+  Length: 139, dtype: int64},
+ {'decoded_rs1': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1140000
+  Length: 134, dtype: int64},
+ {'instr_addi': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 136, dtype: int64},
+ {'decoded_imm_j': shadow_reg_pc           1350000
+  shadow_mem_wdata        1380000
+  shadow_mem_addr         1350000
+  shadow_alu_shr          1370000
+  shadow_alu_shl          1370000
+                           ...   
+  shadow_alu_out_0_q      1430000
+  shadow_alu_eq           1370000
+  shadow_alu_ltu          1370000
+  shadow_alu_lts          1370000
+  shadow_cpuregs_write    1370000
+  Length: 134, dtype: int64},
+ {'decoder_pseudo_trigger': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shl          1060000
+  shadow_alu_add_sub      1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1060000
+  Length: 109, dtype: int64},
+ {'mem_rdata_q': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1070000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1060000
+  Length: 137, dtype: int64},
+ {'instr_rdcycleh': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1060000
+  Length: 138, dtype: int64},
+ {'do_waitirq': shadow_reg_pc           1060000
+  shadow_mem_wdata        1070000
+  shadow_mem_addr         1020000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1060000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1050000
+  Length: 150, dtype: int64},
+ {'trap': shadow_reg_pc           1060000
+  shadow_mem_wdata        1010000
+  shadow_mem_addr         1010000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1060000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1050000
+  Length: 149, dtype: int64},
+ {'instr_rdinstrh': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1060000
+  Length: 138, dtype: int64},
+ {'instr_rdcycle': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1060000
+  Length: 138, dtype: int64},
+ {'instr_rdinstr': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1060000
+  Length: 138, dtype: int64},
+ {'mem_valid': shadow_reg_pc           1060000
+  shadow_mem_wdata        1070000
+  shadow_mem_addr         1060000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1060000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1050000
+  Length: 146, dtype: int64},
+ {'mem_do_prefetch': shadow_reg_pc           1050000
+  shadow_mem_wdata        1060000
+  shadow_mem_addr         1010000
+  shadow_alu_shr          1050000
+  shadow_alu_shl          1050000
+                           ...   
+  shadow_alu_out_0_q      1050000
+  shadow_alu_eq           1050000
+  shadow_alu_ltu          1050000
+  shadow_alu_lts          1050000
+  shadow_cpuregs_write    1040000
+  Length: 149, dtype: int64},
+ {'mem_do_rdata': shadow_reg_pc           1020000
+  shadow_mem_wdata        1030000
+  shadow_mem_addr         1010000
+  shadow_alu_shr          1020000
+  shadow_alu_shl          1020000
+                           ...   
+  shadow_alu_out_0_q      1050000
+  shadow_alu_eq           1020000
+  shadow_alu_ltu          1020000
+  shadow_alu_lts          1020000
+  shadow_cpuregs_write    1020000
+  Length: 149, dtype: int64},
+ {'mem_do_rinst': shadow_reg_pc           1050000
+  shadow_mem_wdata        1060000
+  shadow_mem_addr         1010000
+  shadow_alu_shr          1050000
+  shadow_alu_shl          1050000
+                           ...   
+  shadow_alu_out_0_q      1050000
+  shadow_alu_eq           1050000
+  shadow_alu_ltu          1050000
+  shadow_alu_lts          1050000
+  shadow_cpuregs_write    1040000
+  Length: 149, dtype: int64},
+ {'mem_do_wdata': shadow_reg_pc           1020000
+  shadow_mem_wdata        1010000
+  shadow_mem_addr         1010000
+  shadow_alu_shr          1020000
+  shadow_alu_shl          1020000
+                           ...   
+  shadow_alu_out_0_q      1050000
+  shadow_alu_eq           1020000
+  shadow_alu_ltu          1020000
+  shadow_alu_lts          1020000
+  shadow_cpuregs_write    1020000
+  Length: 149, dtype: int64},
+ {'mem_state': shadow_reg_pc           1040000
+  shadow_mem_wdata        1050000
+  shadow_mem_addr         1020000
+  shadow_alu_shr          1040000
+  shadow_alu_shl          1040000
+                           ...   
+  shadow_alu_out_0_q      1040000
+  shadow_alu_eq           1040000
+  shadow_alu_ltu          1040000
+  shadow_alu_lts          1040000
+  shadow_cpuregs_write    1030000
+  Length: 149, dtype: int64},
+ {'latched_rd': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 138, dtype: int64},
+ {'decoded_rd': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 135, dtype: int64},
+ {'is_jalr_addi_slti_sltiu_xori_ori_andi': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 138, dtype: int64},
+ {'is_lui_auipc_jal': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 138, dtype: int64},
+ {'is_slli_srli_srai': shadow_reg_pc           1070000
+  shadow_mem_wdata        1080000
+  shadow_mem_addr         1090000
+  shadow_alu_shr          1060000
+  shadow_alu_shl          1060000
+                           ...   
+  shadow_alu_out_0_q      1110000
+  shadow_alu_eq           1060000
+  shadow_alu_ltu          1060000
+  shadow_alu_lts          1060000
+  shadow_cpuregs_write    1070000
+  Length: 138, dtype: int64},
+ {'alu_out_q': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 138, dtype: int64},
+ {'is_compare': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'is_lui_auipc_jal_jalr_addi_add_sub': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'reg_pc': shadow_mem_wdata        1040000
+  shadow_mem_addr         1050000
+  shadow_alu_shr          1030000
+  shadow_alu_shl          1030000
+  shadow_alu_add_sub      1030000
+                           ...   
+  shadow_alu_out_0_q      1060000
+  shadow_alu_eq           1030000
+  shadow_alu_ltu          1030000
+  shadow_alu_lts          1030000
+  shadow_cpuregs_write    1030000
+  Length: 149, dtype: int64},
+ {'compressed_instr': shadow_reg_pc           1080000
+  shadow_mem_wdata        1130000
+  shadow_mem_addr         1060000
+  shadow_alu_shr          1120000
+  shadow_alu_shl          1120000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1120000
+  shadow_alu_ltu          1120000
+  shadow_alu_lts          1120000
+  shadow_cpuregs_write    1120000
+  Length: 140, dtype: int64},
+ {'is_sll_srl_sra': shadow_reg_pc           1110000
+  shadow_mem_wdata        1120000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1110000
+  shadow_alu_shl          1110000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1110000
+  shadow_alu_ltu          1110000
+  shadow_alu_lts          1110000
+  shadow_cpuregs_write    1110000
+  Length: 138, dtype: int64},
+ {'alu_out': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 137, dtype: int64},
+ {'cpuregs_write': shadow_reg_pc         1140000
+  shadow_mem_wdata      1170000
+  shadow_mem_addr       1130000
+  shadow_alu_shr        1100000
+  shadow_alu_shl        1100000
+                         ...   
+  shadow_alu_out_0      1160000
+  shadow_alu_out_0_q    1170000
+  shadow_alu_eq         1100000
+  shadow_alu_ltu        1100000
+  shadow_alu_lts        1100000
+  Length: 138, dtype: int64},
+ {'latched_branch': shadow_reg_pc         1010000
+  shadow_mem_wdata      1040000
+  shadow_mem_addr       1020000
+  shadow_alu_shr        1030000
+  shadow_alu_shl        1030000
+                         ...   
+  shadow_alu_out_0      1050000
+  shadow_alu_out_0_q    1060000
+  shadow_alu_eq         1030000
+  shadow_alu_ltu        1030000
+  shadow_alu_lts        1030000
+  Length: 146, dtype: int64},
+ {'latched_store': shadow_reg_pc         1010000
+  shadow_mem_wdata      1040000
+  shadow_mem_addr       1020000
+  shadow_alu_shr        1030000
+  shadow_alu_shl        1030000
+                         ...   
+  shadow_alu_out_0      1050000
+  shadow_alu_out_0_q    1060000
+  shadow_alu_eq         1030000
+  shadow_alu_ltu        1030000
+  shadow_alu_lts        1030000
+  Length: 146, dtype: int64},
+ {'reg_next_pc': shadow_reg_pc           1010000
+  shadow_mem_wdata        1040000
+  shadow_mem_addr         1020000
+  shadow_alu_shr          1030000
+  shadow_alu_shl          1030000
+                           ...   
+  shadow_alu_out_0_q      1060000
+  shadow_alu_eq           1030000
+  shadow_alu_ltu          1030000
+  shadow_alu_lts          1030000
+  shadow_cpuregs_write    1030000
+  Length: 148, dtype: int64},
+ {'cpu_state': shadow_reg_pc           1010000
+  shadow_mem_wdata        1020000
+  shadow_mem_addr         1020000
+  shadow_alu_shr          1010000
+  shadow_alu_shl          1010000
+                           ...   
+  shadow_alu_out_0_q      1040000
+  shadow_alu_eq           1010000
+  shadow_alu_ltu          1010000
+  shadow_alu_lts          1010000
+  shadow_cpuregs_write    1010000
+  Length: 148, dtype: int64},
+ {'cpuregs_wrdata': shadow_reg_pc           1140000
+  shadow_mem_wdata        1170000
+  shadow_mem_addr         1130000
+  shadow_alu_shr          1100000
+  shadow_alu_shl          1100000
+                           ...   
+  shadow_alu_out_0_q      1170000
+  shadow_alu_eq           1100000
+  shadow_alu_ltu          1100000
+  shadow_alu_lts          1100000
+  shadow_cpuregs_write    1140000
+  Length: 138, dtype: int64},
+ {'decoder_trigger': shadow_reg_pc           1020000
+  shadow_mem_wdata        1030000
+  shadow_mem_addr         1020000
+  shadow_alu_shl          1020000
+  shadow_alu_add_sub      1020000
+                           ...   
+  shadow_alu_out_0_q      1030000
+  shadow_alu_eq           1020000
+  shadow_alu_ltu          1020000
+  shadow_alu_lts          1020000
+  shadow_cpuregs_write    1010000
+  Length: 108, dtype: int64},
+ {'mem_la_wstrb': shadow_mem_wstrb    1130000
+  dtype: int64},
+ {'alu_eq': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0       1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'alu_lts': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0       1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'alu_ltu': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0       1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'is_slti_blt_slt': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'is_sltiu_bltu_sltu': shadow_alu_out_q      10000
+  shadow_alu_out         1000
+  shadow_alu_out_0_q    10000
+  dtype: int64},
+ {'alu_out_0': shadow_alu_out_q    10000
+  shadow_alu_out       1000
+  dtype: int64},
+ {'mem_la_wdata': shadow_mem_wdata    1130000
+  dtype: int64},
+ {'irq_active': shadow_irq_delay    1050000
+  dtype: int64}]

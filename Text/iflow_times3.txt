@@ -1,0 +1,2172 @@
+[{'decoder_trigger_q': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 233, dtype: int64},
+ {'instr_sub': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 222, dtype: int64},
+ {'instr_lbu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 218, dtype: int64},
+ {'instr_lhu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 218, dtype: int64},
+ {'instr_lb': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 217, dtype: int64},
+ {'instr_lh': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 217, dtype: int64},
+ {'is_lbu_lhu_lw': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 220, dtype: int64},
+ {'latched_is_lb': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 221, dtype: int64},
+ {'latched_is_lh': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 221, dtype: int64},
+ {'latched_is_lu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 221, dtype: int64},
+ {'mem_rdata_word': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 221, dtype: int64},
+ {'mem_wordsize': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 221, dtype: int64},
+ {'reg_out': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 222, dtype: int64},
+ {'cached_ascii_instr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'latched_stalu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 224, dtype: int64},
+ {'decoder_pseudo_trigger_q': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'is_alu_reg_reg': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 231, dtype: int64},
+ {'instr_add': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 238, dtype: int64},
+ {'q_ascii_instr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'cached_insn_imm': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'cached_insn_opcode': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'cpuregs_rs2': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 227, dtype: int64},
+ {'decoded_rs2': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_out_0_q                     0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 227, dtype: int64},
+ {'instr_sh': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 233, dtype: int64},
+ {'instr_sb': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 233, dtype: int64},
+ {'instr_getq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_setq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_timer': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_srai': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_maskirq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_waitirq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_slli': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_sra': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_srli': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_sll': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_srl': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'q_insn_imm': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'q_insn_opcode': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_bltu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'instr_bgeu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'instr_bne': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'instr_blt': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'instr_beq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'instr_bge': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'is_sb_sh_sw': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 104, dtype: int64},
+ {'instr_sltu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_do_waitirq                      0
+  shadow_alu_out_0                       0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 103, dtype: int64},
+ {'instr_slti': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_do_waitirq                      0
+  shadow_alu_out_0                       0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 103, dtype: int64},
+ {'instr_slt': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_do_waitirq                      0
+  shadow_alu_out_0                       0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 103, dtype: int64},
+ {'instr_sltiu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_do_waitirq                      0
+  shadow_alu_out_0                       0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 103, dtype: int64},
+ {'latched_compr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 238, dtype: int64},
+ {'instr_jalr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 104, dtype: int64},
+ {'is_alu_reg_imm': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 107, dtype: int64},
+ {'reg_op1': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_wait_2                      0
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 107, dtype: int64},
+ {'instr_auipc': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 104, dtype: int64},
+ {'is_lb_lh_lw_lbu_lhu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 106, dtype: int64},
+ {'decoded_imm': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 104, dtype: int64},
+ {'instr_jal': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 104, dtype: int64},
+ {'reg_op2': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_wait_2                      0
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 107, dtype: int64},
+ {'is_beq_bne_blt_bge_bltu_bgeu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'alu_add_sub': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'instr_lui': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 104, dtype: int64},
+ {'instr_andi': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'instr_ori': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'instr_and': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'instr_or': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'instr_xor': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'instr_lw': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 106, dtype: int64},
+ {'cpuregs_rs1': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'instr_xori': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'instr_sw': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'instr_retirq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 100, dtype: int64},
+ {'decoded_rs1': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 105, dtype: int64},
+ {'instr_addi': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 103, dtype: int64},
+ {'decoded_imm_j': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 105, dtype: int64},
+ {'decoder_pseudo_trigger': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 130, dtype: int64},
+ {'mem_rdata_q': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'instr_rdcycleh': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'do_waitirq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 89, dtype: int64},
+ {'trap': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 90, dtype: int64},
+ {'instr_rdinstrh': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'instr_rdcycle': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'instr_rdinstr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'mem_valid': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 93, dtype: int64},
+ {'mem_do_prefetch': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 90, dtype: int64},
+ {'mem_do_rdata': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 90, dtype: int64},
+ {'mem_do_rinst': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 90, dtype: int64},
+ {'mem_do_wdata': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 90, dtype: int64},
+ {'mem_state': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 90, dtype: int64},
+ {'latched_rd': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'decoded_rd': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 104, dtype: int64},
+ {'is_jalr_addi_slti_sltiu_xori_ori_andi': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'is_lui_auipc_jal': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'is_slli_srli_srai': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'alu_out_q': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'is_compare': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'is_lui_auipc_jal_jalr_addi_add_sub': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'reg_pc': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 90, dtype: int64},
+ {'compressed_instr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 99, dtype: int64},
+ {'is_sll_srl_sra': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'alu_out': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 102, dtype: int64},
+ {'cpuregs_write': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 101, dtype: int64},
+ {'latched_branch': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 93, dtype: int64},
+ {'latched_store': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 93, dtype: int64},
+ {'reg_next_pc': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 91, dtype: int64},
+ {'cpu_state': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 91, dtype: int64},
+ {'cpuregs_wrdata': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 101, dtype: int64},
+ {'decoder_trigger': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_pcpi_timeout                    0
+  shadow_do_waitirq                      0
+  shadow_alu_wait                        0
+  shadow_alu_wait_2                      0
+  shadow_clear_prefetched_high_word_q    0
+  Length: 131, dtype: int64},
+ {'q_insn_rd': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'q_insn_rs1': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'q_insn_rs2': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'cached_insn_rd': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'cached_insn_rs1': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'cached_insn_rs2': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_la_wstrb': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 238, dtype: int64},
+ {'alu_eq': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 235, dtype: int64},
+ {'alu_lts': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 235, dtype: int64},
+ {'alu_ltu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 235, dtype: int64},
+ {'is_slti_blt_slt': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'is_sltiu_bltu_sltu': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 236, dtype: int64},
+ {'alu_out_0': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 237, dtype: int64},
+ {'mem_la_wdata': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 238, dtype: int64},
+ {'count_cycle': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'count_instr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_ascii_instr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_insn_addr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_insn_imm': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_insn_opcode': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_insn_rd': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_insn_rs1': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_insn_rs2': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_next': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_rs1val': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_rs2val': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'irq_state': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_addr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_wdata': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_wstrb': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'new_ascii_instr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'next_insn_opcode': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_insn': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'reg_sh': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'irq_active': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 238, dtype: int64},
+ {'alu_out_0_q': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'alu_shl': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'alu_shr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'alu_wait': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'alu_wait_2': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'clear_prefetched_high_word': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'clear_prefetched_high_word_q': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'current_pc': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_ascii_state': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_rs1val_valid': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_rs2val_valid': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'dbg_valid_insn': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'decoded_rs': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'eoi': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'instr_ecall_ebreak': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'irq_delay': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'irq_mask': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'irq_pending': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'last_mem_valid': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'latched_trace': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_16bit_buffer': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_instr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_la_firstword_reg': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'mem_la_secondword': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'next_irq_pending': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_int_rd': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_int_ready': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_int_wait': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_int_wr': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_timeout': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_timeout_counter': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'pcpi_valid': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'prefetched_high_word': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'set_mem_do_rdata': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'set_mem_do_rinst': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'set_mem_do_wdata': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'timer': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'trace_data': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64},
+ {'trace_valid': trap                                   0
+  pcpi_valid                             0
+  pcpi_insn                              0
+  eoi                                    0
+  trace_valid                            0
+                                        ..
+  shadow_alu_eq                          0
+  shadow_alu_ltu                         0
+  shadow_alu_lts                         0
+  shadow_clear_prefetched_high_word_q    0
+  shadow_cpuregs_write                   0
+  Length: 239, dtype: int64}]

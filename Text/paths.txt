@@ -1,0 +1,624 @@
+
+src_cpuregs_rs2
+            Destination             Source    Time    Signal_Name
+dest_shadow_cpuregs_rs2    src_cpuregs_rs2       0    cpuregs_rs2
+dest_shadow_cpuregs_rs2    src_decoded_rs2       0    decoded_rs2
+dest_shadow_cpuregs_rs2      src_instr_sub 1190000      instr_sub
+dest_shadow_cpuregs_rs2      src_instr_lbu 1260000      instr_lbu
+dest_shadow_cpuregs_rs2       src_instr_lh 1260000       instr_lh
+dest_shadow_cpuregs_rs2      src_instr_lhu 1260000      instr_lhu
+dest_shadow_cpuregs_rs2        src_reg_out 1260000        reg_out
+dest_shadow_cpuregs_rs2  src_latched_is_lh 1260000  latched_is_lh
+dest_shadow_cpuregs_rs2   src_mem_wordsize 1260000   mem_wordsize
+dest_shadow_cpuregs_rs2 src_mem_rdata_word 1260000 mem_rdata_word
+dest_shadow_cpuregs_rs2  src_is_lbu_lhu_lw 1260000  is_lbu_lhu_lw
+dest_shadow_cpuregs_rs2  src_latched_is_lb 1260000  latched_is_lb
+dest_shadow_cpuregs_rs2  src_latched_is_lu 1260000  latched_is_lu
+dest_shadow_cpuregs_rs2  src_latched_stalu 1260000  latched_stalu
+dest_shadow_cpuregs_rs2       src_instr_lb 1260000       instr_lb
+
+src_q_insn_imm
+           Destination                       Source  Time              Signal_Name
+dest_shadow_q_insn_imm          src_cached_insn_imm     0          cached_insn_imm
+dest_shadow_q_insn_imm src_decoder_pseudo_trigger_q     0 decoder_pseudo_trigger_q
+dest_shadow_q_insn_imm                 src_dbg_next     0                 dbg_next
+dest_shadow_q_insn_imm        src_decoder_trigger_q 10000        decoder_trigger_q
+
+src_q_insn_opcode
+              Destination                       Source  Time              Signal_Name
+dest_shadow_q_insn_opcode       src_cached_insn_opcode     0       cached_insn_opcode
+dest_shadow_q_insn_opcode src_decoder_pseudo_trigger_q     0 decoder_pseudo_trigger_q
+dest_shadow_q_insn_opcode                 src_dbg_next     0                 dbg_next
+dest_shadow_q_insn_opcode         src_next_insn_opcode     0         next_insn_opcode
+dest_shadow_q_insn_opcode        src_decoder_trigger_q 10000        decoder_trigger_q
+
+src_q_ascii_instr
+              Destination                       Source  Time              Signal_Name
+dest_shadow_q_ascii_instr            src_q_ascii_instr     0            q_ascii_instr
+dest_shadow_q_ascii_instr       src_cached_ascii_instr     0       cached_ascii_instr
+dest_shadow_q_ascii_instr src_decoder_pseudo_trigger_q     0 decoder_pseudo_trigger_q
+dest_shadow_q_ascii_instr          src_dbg_ascii_instr     0          dbg_ascii_instr
+dest_shadow_q_ascii_instr                 src_dbg_next     0                 dbg_next
+dest_shadow_q_ascii_instr          src_new_ascii_instr     0          new_ascii_instr
+dest_shadow_q_ascii_instr        src_decoder_trigger_q 10000        decoder_trigger_q
+
+src_instr_add
+          Destination             Source    Time    Signal_Name
+dest_shadow_instr_add      src_instr_add       0      instr_add
+dest_shadow_instr_add src_is_alu_reg_reg 1200000 is_alu_reg_reg
+
+src_latched_is_lh
+              Destination            Source    Time   Signal_Name
+dest_shadow_latched_is_lh src_latched_is_lh       0 latched_is_lh
+dest_shadow_latched_is_lh      src_instr_lh 1190000      instr_lh
+
+src_latched_is_lu
+              Destination            Source    Time   Signal_Name
+dest_shadow_latched_is_lu src_latched_is_lu       0 latched_is_lu
+dest_shadow_latched_is_lu src_is_lbu_lhu_lw 1190000 is_lbu_lhu_lw
+
+src_mem_rdata_word
+               Destination             Source    Time    Signal_Name
+dest_shadow_mem_rdata_word src_mem_rdata_word       0 mem_rdata_word
+dest_shadow_mem_rdata_word   src_mem_wordsize       0   mem_wordsize
+dest_shadow_mem_rdata_word       src_instr_sh 1120000       instr_sh
+dest_shadow_mem_rdata_word       src_instr_sb 1120000       instr_sb
+dest_shadow_mem_rdata_word       src_instr_lh 1190000       instr_lh
+dest_shadow_mem_rdata_word      src_instr_lhu 1190000      instr_lhu
+dest_shadow_mem_rdata_word      src_instr_lbu 1190000      instr_lbu
+dest_shadow_mem_rdata_word       src_instr_lb 1190000       instr_lb
+
+src_mem_wordsize
+             Destination           Source    Time  Signal_Name
+dest_shadow_mem_wordsize src_mem_wordsize       0 mem_wordsize
+dest_shadow_mem_wordsize     src_instr_sb 1120000     instr_sb
+dest_shadow_mem_wordsize     src_instr_sh 1120000     instr_sh
+dest_shadow_mem_wordsize    src_instr_lhu 1190000    instr_lhu
+dest_shadow_mem_wordsize     src_instr_lh 1190000     instr_lh
+dest_shadow_mem_wordsize    src_instr_lbu 1190000    instr_lbu
+dest_shadow_mem_wordsize     src_instr_lb 1190000     instr_lb
+
+src_reg_out
+        Destination             Source    Time    Signal_Name
+dest_shadow_reg_out        src_reg_out       0        reg_out
+dest_shadow_reg_out       src_instr_lh 1220000       instr_lh
+dest_shadow_reg_out   src_mem_wordsize 1220000   mem_wordsize
+dest_shadow_reg_out src_mem_rdata_word 1220000 mem_rdata_word
+dest_shadow_reg_out  src_latched_is_lb 1220000  latched_is_lb
+dest_shadow_reg_out  src_latched_is_lu 1220000  latched_is_lu
+dest_shadow_reg_out      src_instr_lhu 1220000      instr_lhu
+dest_shadow_reg_out       src_instr_lb 1220000       instr_lb
+dest_shadow_reg_out  src_latched_is_lh 1220000  latched_is_lh
+dest_shadow_reg_out  src_is_lbu_lhu_lw 1220000  is_lbu_lhu_lw
+dest_shadow_reg_out      src_instr_lbu 1220000      instr_lbu
+
+src_reg_op1
+        Destination             Source    Time    Signal_Name
+dest_shadow_reg_op1      src_instr_sub 1100000      instr_sub
+dest_shadow_reg_op1  src_is_lbu_lhu_lw 1240000  is_lbu_lhu_lw
+dest_shadow_reg_op1  src_latched_is_lb 1240000  latched_is_lb
+dest_shadow_reg_op1  src_latched_is_lh 1240000  latched_is_lh
+dest_shadow_reg_op1 src_mem_rdata_word 1240000 mem_rdata_word
+dest_shadow_reg_op1  src_latched_is_lu 1240000  latched_is_lu
+dest_shadow_reg_op1       src_instr_lb 1240000       instr_lb
+dest_shadow_reg_op1      src_instr_lhu 1240000      instr_lhu
+dest_shadow_reg_op1        src_reg_out 1240000        reg_out
+dest_shadow_reg_op1       src_instr_lh 1240000       instr_lh
+dest_shadow_reg_op1   src_mem_wordsize 1240000   mem_wordsize
+dest_shadow_reg_op1      src_instr_lbu 1240000      instr_lbu
+
+src_alu_out_0
+          Destination                 Source    Time        Signal_Name
+dest_shadow_alu_out_0         src_instr_bltu       0         instr_bltu
+dest_shadow_alu_out_0         src_instr_bgeu       0         instr_bgeu
+dest_shadow_alu_out_0          src_instr_bne       0          instr_bne
+dest_shadow_alu_out_0          src_instr_blt       0          instr_blt
+dest_shadow_alu_out_0          src_instr_beq       0          instr_beq
+dest_shadow_alu_out_0          src_instr_bge       0          instr_bge
+dest_shadow_alu_out_0          src_alu_out_0       0          alu_out_0
+dest_shadow_alu_out_0 src_is_sltiu_bltu_sltu       0 is_sltiu_bltu_sltu
+dest_shadow_alu_out_0    src_is_slti_blt_slt       0    is_slti_blt_slt
+dest_shadow_alu_out_0            src_alu_lts    1000            alu_lts
+dest_shadow_alu_out_0            src_alu_ltu    1000            alu_ltu
+dest_shadow_alu_out_0             src_alu_eq    1000             alu_eq
+dest_shadow_alu_out_0     src_is_alu_reg_reg 1100000     is_alu_reg_reg
+
+src_mem_la_wdata
+             Destination             Source    Time    Signal_Name
+dest_shadow_mem_la_wdata   src_mem_wordsize       0   mem_wordsize
+dest_shadow_mem_la_wdata   src_mem_la_wdata       0   mem_la_wdata
+dest_shadow_mem_la_wdata    src_decoded_rs2 1100000    decoded_rs2
+dest_shadow_mem_la_wdata    src_cpuregs_rs2 1100000    cpuregs_rs2
+dest_shadow_mem_la_wdata       src_instr_sb 1120000       instr_sb
+dest_shadow_mem_la_wdata       src_instr_sh 1120000       instr_sh
+dest_shadow_mem_la_wdata       src_instr_lh 1190000       instr_lh
+dest_shadow_mem_la_wdata      src_instr_lbu 1190000      instr_lbu
+dest_shadow_mem_la_wdata      src_instr_lhu 1190000      instr_lhu
+dest_shadow_mem_la_wdata       src_instr_lb 1190000       instr_lb
+dest_shadow_mem_la_wdata  src_latched_is_lb 1280000  latched_is_lb
+dest_shadow_mem_la_wdata  src_is_lbu_lhu_lw 1280000  is_lbu_lhu_lw
+dest_shadow_mem_la_wdata      src_instr_sub 1280000      instr_sub
+dest_shadow_mem_la_wdata        src_reg_out 1280000        reg_out
+dest_shadow_mem_la_wdata  src_latched_is_lu 1280000  latched_is_lu
+dest_shadow_mem_la_wdata  src_latched_is_lh 1280000  latched_is_lh
+dest_shadow_mem_la_wdata  src_latched_stalu 1280000  latched_stalu
+dest_shadow_mem_la_wdata src_mem_rdata_word 1280000 mem_rdata_word
+
+src_latched_is_lb
+              Destination            Source    Time   Signal_Name
+dest_shadow_latched_is_lb src_latched_is_lb       0 latched_is_lb
+dest_shadow_latched_is_lb      src_instr_lb 1190000      instr_lb
+
+src_is_slti_blt_slt
+                Destination              Source    Time     Signal_Name
+dest_shadow_is_slti_blt_slt       src_instr_blt       0       instr_blt
+dest_shadow_is_slti_blt_slt src_is_slti_blt_slt       0 is_slti_blt_slt
+dest_shadow_is_slti_blt_slt  src_is_alu_reg_reg 1100000  is_alu_reg_reg
+
+src_reg_op2
+        Destination             Source    Time    Signal_Name
+dest_shadow_reg_op2    src_decoded_rs2 1100000    decoded_rs2
+dest_shadow_reg_op2    src_cpuregs_rs2 1100000    cpuregs_rs2
+dest_shadow_reg_op2  src_is_lbu_lhu_lw 1280000  is_lbu_lhu_lw
+dest_shadow_reg_op2       src_instr_lb 1280000       instr_lb
+dest_shadow_reg_op2      src_instr_lhu 1280000      instr_lhu
+dest_shadow_reg_op2      src_instr_sub 1280000      instr_sub
+dest_shadow_reg_op2  src_latched_is_lb 1280000  latched_is_lb
+dest_shadow_reg_op2      src_instr_lbu 1280000      instr_lbu
+dest_shadow_reg_op2       src_instr_lh 1280000       instr_lh
+dest_shadow_reg_op2 src_mem_rdata_word 1280000 mem_rdata_word
+dest_shadow_reg_op2  src_latched_is_lu 1280000  latched_is_lu
+dest_shadow_reg_op2  src_latched_stalu 1280000  latched_stalu
+dest_shadow_reg_op2  src_latched_is_lh 1280000  latched_is_lh
+dest_shadow_reg_op2   src_mem_wordsize 1280000   mem_wordsize
+dest_shadow_reg_op2        src_reg_out 1280000        reg_out
+
+src_cpuregs_write
+              Destination                                    Source    Time                           Signal_Name
+dest_shadow_cpuregs_write                         src_cpuregs_write       0                         cpuregs_write
+dest_shadow_cpuregs_write                        src_latched_branch       0                        latched_branch
+dest_shadow_cpuregs_write                         src_latched_store       0                         latched_store
+dest_shadow_cpuregs_write                       src_decoder_trigger 1010000                       decoder_trigger
+dest_shadow_cpuregs_write                             src_cpu_state 1010000                             cpu_state
+dest_shadow_cpuregs_write                          src_mem_do_rdata 1020000                          mem_do_rdata
+dest_shadow_cpuregs_write                          src_mem_do_wdata 1020000                          mem_do_wdata
+dest_shadow_cpuregs_write                           src_reg_next_pc 1030000                           reg_next_pc
+dest_shadow_cpuregs_write                             src_mem_state 1030000                             mem_state
+dest_shadow_cpuregs_write                                src_reg_pc 1030000                                reg_pc
+dest_shadow_cpuregs_write                       src_mem_do_prefetch 1040000                       mem_do_prefetch
+dest_shadow_cpuregs_write                          src_mem_do_rinst 1040000                          mem_do_rinst
+dest_shadow_cpuregs_write                            src_do_waitirq 1050000                            do_waitirq
+dest_shadow_cpuregs_write                                  src_trap 1050000                                  trap
+dest_shadow_cpuregs_write                             src_mem_valid 1050000                             mem_valid
+dest_shadow_cpuregs_write                             src_instr_jal 1050000                             instr_jal
+dest_shadow_cpuregs_write                        src_instr_rdinstrh 1060000                        instr_rdinstrh
+dest_shadow_cpuregs_write                           src_mem_rdata_q 1060000                           mem_rdata_q
+dest_shadow_cpuregs_write                src_decoder_pseudo_trigger 1060000                decoder_pseudo_trigger
+dest_shadow_cpuregs_write                        src_instr_rdcycleh 1060000                        instr_rdcycleh
+dest_shadow_cpuregs_write                         src_instr_rdcycle 1060000                         instr_rdcycle
+dest_shadow_cpuregs_write                         src_instr_rdinstr 1060000                         instr_rdinstr
+dest_shadow_cpuregs_write                   src_is_lb_lh_lw_lbu_lhu 1070000                   is_lb_lh_lw_lbu_lhu
+dest_shadow_cpuregs_write                            src_instr_jalr 1070000                            instr_jalr
+dest_shadow_cpuregs_write                            src_instr_addi 1070000                            instr_addi
+dest_shadow_cpuregs_write          src_is_beq_bne_blt_bge_bltu_bgeu 1070000          is_beq_bne_blt_bge_bltu_bgeu
+dest_shadow_cpuregs_write                             src_instr_lui 1070000                             instr_lui
+dest_shadow_cpuregs_write                     src_is_slli_srli_srai 1070000                     is_slli_srli_srai
+dest_shadow_cpuregs_write                      src_is_lui_auipc_jal 1070000                      is_lui_auipc_jal
+dest_shadow_cpuregs_write                        src_is_alu_reg_imm 1070000                        is_alu_reg_imm
+dest_shadow_cpuregs_write                           src_instr_auipc 1070000                           instr_auipc
+dest_shadow_cpuregs_write src_is_jalr_addi_slti_sltiu_xori_ori_andi 1070000 is_jalr_addi_slti_sltiu_xori_ori_andi
+dest_shadow_cpuregs_write                          src_instr_retirq 1090000                          instr_retirq
+dest_shadow_cpuregs_write                        src_is_sll_srl_sra 1110000                        is_sll_srl_sra
+dest_shadow_cpuregs_write                              src_instr_sw 1110000                              instr_sw
+dest_shadow_cpuregs_write                           src_is_sb_sh_sw 1110000                           is_sb_sh_sw
+dest_shadow_cpuregs_write                      src_compressed_instr 1120000                      compressed_instr
+dest_shadow_cpuregs_write                           src_decoded_imm 1140000                           decoded_imm
+dest_shadow_cpuregs_write                              src_instr_or 1140000                              instr_or
+dest_shadow_cpuregs_write                             src_instr_slt 1140000                             instr_slt
+dest_shadow_cpuregs_write                           src_instr_sltiu 1140000                           instr_sltiu
+dest_shadow_cpuregs_write                             src_instr_ori 1140000                             instr_ori
+dest_shadow_cpuregs_write                             src_instr_and 1140000                             instr_and
+dest_shadow_cpuregs_write                            src_decoded_rd 1140000                            decoded_rd
+dest_shadow_cpuregs_write    src_is_lui_auipc_jal_jalr_addi_add_sub 1140000    is_lui_auipc_jal_jalr_addi_add_sub
+dest_shadow_cpuregs_write                               src_reg_op1 1140000                               reg_op1
+dest_shadow_cpuregs_write                           src_decoded_rs1 1140000                           decoded_rs1
+dest_shadow_cpuregs_write                           src_alu_add_sub 1140000                           alu_add_sub
+dest_shadow_cpuregs_write                           src_cpuregs_rs1 1140000                           cpuregs_rs1
+dest_shadow_cpuregs_write                               src_reg_op2 1140000                               reg_op2
+dest_shadow_cpuregs_write                            src_instr_xori 1140000                            instr_xori
+dest_shadow_cpuregs_write                            src_instr_andi 1140000                            instr_andi
+dest_shadow_cpuregs_write                             src_instr_xor 1140000                             instr_xor
+dest_shadow_cpuregs_write                               src_alu_out 1140000                               alu_out
+dest_shadow_cpuregs_write                            src_instr_sltu 1140000                            instr_sltu
+dest_shadow_cpuregs_write                            src_instr_slti 1140000                            instr_slti
+dest_shadow_cpuregs_write                            src_is_compare 1140000                            is_compare
+dest_shadow_cpuregs_write                            src_latched_rd 1140000                            latched_rd
+dest_shadow_cpuregs_write                             src_alu_out_q 1140000                             alu_out_q
+dest_shadow_cpuregs_write                        src_cpuregs_wrdata 1140000                        cpuregs_wrdata
+dest_shadow_cpuregs_write                              src_instr_lw 1180000                              instr_lw
+dest_shadow_cpuregs_write                         src_decoded_imm_j 1370000                         decoded_imm_j
+
+src_q_insn_rd
+          Destination                Source  Time       Signal_Name
+dest_shadow_q_insn_rd src_decoder_trigger_q 10000 decoder_trigger_q
+
+src_q_insn_rs1
+           Destination                       Source  Time              Signal_Name
+dest_shadow_q_insn_rs1 src_decoder_pseudo_trigger_q     0 decoder_pseudo_trigger_q
+dest_shadow_q_insn_rs1             src_dbg_insn_rs1     0             dbg_insn_rs1
+dest_shadow_q_insn_rs1                 src_dbg_next     0                 dbg_next
+dest_shadow_q_insn_rs1               src_q_insn_rs1     0               q_insn_rs1
+dest_shadow_q_insn_rs1          src_cached_insn_rs1     0          cached_insn_rs1
+dest_shadow_q_insn_rs1        src_decoder_trigger_q 10000        decoder_trigger_q
+
+src_q_insn_rs2
+           Destination                       Source  Time              Signal_Name
+dest_shadow_q_insn_rs2              src_decoded_rs2     0              decoded_rs2
+dest_shadow_q_insn_rs2 src_decoder_pseudo_trigger_q     0 decoder_pseudo_trigger_q
+dest_shadow_q_insn_rs2             src_dbg_insn_rs2     0             dbg_insn_rs2
+dest_shadow_q_insn_rs2                 src_dbg_next     0                 dbg_next
+dest_shadow_q_insn_rs2               src_q_insn_rs2     0               q_insn_rs2
+dest_shadow_q_insn_rs2          src_cached_insn_rs2     0          cached_insn_rs2
+dest_shadow_q_insn_rs2        src_decoder_trigger_q 10000        decoder_trigger_q
+
+src_mem_la_wstrb
+             Destination           Source    Time  Signal_Name
+dest_shadow_mem_la_wstrb src_mem_wordsize       0 mem_wordsize
+dest_shadow_mem_la_wstrb src_mem_la_wstrb       0 mem_la_wstrb
+dest_shadow_mem_la_wstrb     src_instr_sb 1120000     instr_sb
+dest_shadow_mem_la_wstrb     src_instr_sh 1120000     instr_sh
+dest_shadow_mem_la_wstrb    src_instr_lhu 1190000    instr_lhu
+dest_shadow_mem_la_wstrb    src_instr_lbu 1190000    instr_lbu
+dest_shadow_mem_la_wstrb     src_instr_lh 1190000     instr_lh
+dest_shadow_mem_la_wstrb     src_instr_lb 1190000     instr_lb
+
+src_alu_eq
+       Destination                                    Source    Time                           Signal_Name
+dest_shadow_alu_eq                               src_reg_op1       0                               reg_op1
+dest_shadow_alu_eq                               src_reg_op2       0                               reg_op2
+dest_shadow_alu_eq                                src_alu_eq       0                                alu_eq
+dest_shadow_alu_eq                             src_cpu_state 1010000                             cpu_state
+dest_shadow_alu_eq                          src_mem_do_wdata 1020000                          mem_do_wdata
+dest_shadow_alu_eq                          src_mem_do_rdata 1020000                          mem_do_rdata
+dest_shadow_alu_eq                       src_decoder_trigger 1020000                       decoder_trigger
+dest_shadow_alu_eq                           src_reg_next_pc 1030000                           reg_next_pc
+dest_shadow_alu_eq                         src_latched_store 1030000                         latched_store
+dest_shadow_alu_eq                                src_reg_pc 1030000                                reg_pc
+dest_shadow_alu_eq                        src_latched_branch 1030000                        latched_branch
+dest_shadow_alu_eq                             src_mem_state 1040000                             mem_state
+dest_shadow_alu_eq                          src_mem_do_rinst 1050000                          mem_do_rinst
+dest_shadow_alu_eq                       src_mem_do_prefetch 1050000                       mem_do_prefetch
+dest_shadow_alu_eq                                  src_trap 1060000                                  trap
+dest_shadow_alu_eq                             src_instr_jal 1060000                             instr_jal
+dest_shadow_alu_eq                           src_decoded_rs1 1060000                           decoded_rs1
+dest_shadow_alu_eq                        src_instr_rdinstrh 1060000                        instr_rdinstrh
+dest_shadow_alu_eq                         src_instr_rdcycle 1060000                         instr_rdcycle
+dest_shadow_alu_eq                           src_cpuregs_rs1 1060000                           cpuregs_rs1
+dest_shadow_alu_eq                             src_instr_lui 1060000                             instr_lui
+dest_shadow_alu_eq                           src_is_sb_sh_sw 1060000                           is_sb_sh_sw
+dest_shadow_alu_eq                           src_decoded_imm 1060000                           decoded_imm
+dest_shadow_alu_eq                           src_mem_rdata_q 1060000                           mem_rdata_q
+dest_shadow_alu_eq                        src_instr_rdcycleh 1060000                        instr_rdcycleh
+dest_shadow_alu_eq                            src_do_waitirq 1060000                            do_waitirq
+dest_shadow_alu_eq                        src_is_alu_reg_imm 1060000                        is_alu_reg_imm
+dest_shadow_alu_eq                   src_is_lb_lh_lw_lbu_lhu 1060000                   is_lb_lh_lw_lbu_lhu
+dest_shadow_alu_eq                            src_instr_addi 1060000                            instr_addi
+dest_shadow_alu_eq                src_decoder_pseudo_trigger 1060000                decoder_pseudo_trigger
+dest_shadow_alu_eq                           src_instr_auipc 1060000                           instr_auipc
+dest_shadow_alu_eq          src_is_beq_bne_blt_bge_bltu_bgeu 1060000          is_beq_bne_blt_bge_bltu_bgeu
+dest_shadow_alu_eq                     src_is_slli_srli_srai 1060000                     is_slli_srli_srai
+dest_shadow_alu_eq src_is_jalr_addi_slti_sltiu_xori_ori_andi 1060000 is_jalr_addi_slti_sltiu_xori_ori_andi
+dest_shadow_alu_eq                      src_is_lui_auipc_jal 1060000                      is_lui_auipc_jal
+dest_shadow_alu_eq                             src_mem_valid 1060000                             mem_valid
+dest_shadow_alu_eq                         src_instr_rdinstr 1060000                         instr_rdinstr
+dest_shadow_alu_eq                              src_instr_sw 1100000                              instr_sw
+dest_shadow_alu_eq                             src_instr_xor 1100000                             instr_xor
+dest_shadow_alu_eq                            src_instr_xori 1100000                            instr_xori
+dest_shadow_alu_eq                             src_instr_sub 1100000                             instr_sub
+dest_shadow_alu_eq                              src_instr_or 1100000                              instr_or
+dest_shadow_alu_eq                          src_instr_retirq 1100000                          instr_retirq
+dest_shadow_alu_eq                            src_is_compare 1100000                            is_compare
+dest_shadow_alu_eq                            src_latched_rd 1100000                            latched_rd
+dest_shadow_alu_eq                             src_alu_out_q 1100000                             alu_out_q
+dest_shadow_alu_eq                            src_decoded_rd 1100000                            decoded_rd
+dest_shadow_alu_eq                        src_cpuregs_wrdata 1100000                        cpuregs_wrdata
+dest_shadow_alu_eq                         src_cpuregs_write 1100000                         cpuregs_write
+dest_shadow_alu_eq    src_is_lui_auipc_jal_jalr_addi_add_sub 1100000    is_lui_auipc_jal_jalr_addi_add_sub
+dest_shadow_alu_eq                               src_alu_out 1100000                               alu_out
+dest_shadow_alu_eq                             src_instr_and 1100000                             instr_and
+dest_shadow_alu_eq                             src_instr_slt 1100000                             instr_slt
+dest_shadow_alu_eq                           src_instr_sltiu 1100000                           instr_sltiu
+dest_shadow_alu_eq                            src_instr_slti 1100000                            instr_slti
+dest_shadow_alu_eq                            src_instr_jalr 1100000                            instr_jalr
+dest_shadow_alu_eq                           src_decoded_rs2 1100000                           decoded_rs2
+dest_shadow_alu_eq                           src_cpuregs_rs2 1100000                           cpuregs_rs2
+dest_shadow_alu_eq                            src_instr_sltu 1100000                            instr_sltu
+dest_shadow_alu_eq                            src_instr_andi 1100000                            instr_andi
+dest_shadow_alu_eq                             src_instr_ori 1100000                             instr_ori
+dest_shadow_alu_eq                           src_alu_add_sub 1100000                           alu_add_sub
+dest_shadow_alu_eq                        src_is_sll_srl_sra 1110000                        is_sll_srl_sra
+dest_shadow_alu_eq                      src_compressed_instr 1120000                      compressed_instr
+dest_shadow_alu_eq                              src_instr_lw 1170000                              instr_lw
+dest_shadow_alu_eq                         src_is_lbu_lhu_lw 1240000                         is_lbu_lhu_lw
+dest_shadow_alu_eq                         src_latched_is_lb 1240000                         latched_is_lb
+dest_shadow_alu_eq                         src_latched_is_lh 1240000                         latched_is_lh
+dest_shadow_alu_eq                              src_instr_lh 1240000                              instr_lh
+dest_shadow_alu_eq                        src_mem_rdata_word 1240000                        mem_rdata_word
+dest_shadow_alu_eq                         src_latched_is_lu 1240000                         latched_is_lu
+dest_shadow_alu_eq                         src_latched_stalu 1240000                         latched_stalu
+dest_shadow_alu_eq                               src_reg_out 1240000                               reg_out
+dest_shadow_alu_eq                              src_instr_lb 1240000                              instr_lb
+dest_shadow_alu_eq                             src_instr_lhu 1240000                             instr_lhu
+dest_shadow_alu_eq                          src_mem_wordsize 1240000                          mem_wordsize
+dest_shadow_alu_eq                             src_instr_lbu 1240000                             instr_lbu
+dest_shadow_alu_eq                         src_decoded_imm_j 1370000                         decoded_imm_j
+
+src_alu_lts
+        Destination                                    Source    Time                           Signal_Name
+dest_shadow_alu_lts                               src_reg_op1       0                               reg_op1
+dest_shadow_alu_lts                               src_reg_op2       0                               reg_op2
+dest_shadow_alu_lts                               src_alu_lts       0                               alu_lts
+dest_shadow_alu_lts                             src_cpu_state 1010000                             cpu_state
+dest_shadow_alu_lts                       src_decoder_trigger 1020000                       decoder_trigger
+dest_shadow_alu_lts                          src_mem_do_rdata 1020000                          mem_do_rdata
+dest_shadow_alu_lts                          src_mem_do_wdata 1020000                          mem_do_wdata
+dest_shadow_alu_lts                         src_latched_store 1030000                         latched_store
+dest_shadow_alu_lts                           src_reg_next_pc 1030000                           reg_next_pc
+dest_shadow_alu_lts                        src_latched_branch 1030000                        latched_branch
+dest_shadow_alu_lts                                src_reg_pc 1030000                                reg_pc
+dest_shadow_alu_lts                             src_mem_state 1040000                             mem_state
+dest_shadow_alu_lts                          src_mem_do_rinst 1050000                          mem_do_rinst
+dest_shadow_alu_lts                       src_mem_do_prefetch 1050000                       mem_do_prefetch
+dest_shadow_alu_lts                                  src_trap 1060000                                  trap
+dest_shadow_alu_lts                             src_instr_jal 1060000                             instr_jal
+dest_shadow_alu_lts                           src_decoded_imm 1060000                           decoded_imm
+dest_shadow_alu_lts                           src_cpuregs_rs1 1060000                           cpuregs_rs1
+dest_shadow_alu_lts          src_is_beq_bne_blt_bge_bltu_bgeu 1060000          is_beq_bne_blt_bge_bltu_bgeu
+dest_shadow_alu_lts                             src_instr_lui 1060000                             instr_lui
+dest_shadow_alu_lts                           src_is_sb_sh_sw 1060000                           is_sb_sh_sw
+dest_shadow_alu_lts                        src_instr_rdinstrh 1060000                        instr_rdinstrh
+dest_shadow_alu_lts                           src_decoded_rs1 1060000                           decoded_rs1
+dest_shadow_alu_lts                           src_mem_rdata_q 1060000                           mem_rdata_q
+dest_shadow_alu_lts                        src_instr_rdcycleh 1060000                        instr_rdcycleh
+dest_shadow_alu_lts                            src_do_waitirq 1060000                            do_waitirq
+dest_shadow_alu_lts                        src_is_alu_reg_imm 1060000                        is_alu_reg_imm
+dest_shadow_alu_lts                   src_is_lb_lh_lw_lbu_lhu 1060000                   is_lb_lh_lw_lbu_lhu
+dest_shadow_alu_lts                           src_instr_auipc 1060000                           instr_auipc
+dest_shadow_alu_lts                            src_instr_addi 1060000                            instr_addi
+dest_shadow_alu_lts                src_decoder_pseudo_trigger 1060000                decoder_pseudo_trigger
+dest_shadow_alu_lts                         src_instr_rdcycle 1060000                         instr_rdcycle
+dest_shadow_alu_lts                     src_is_slli_srli_srai 1060000                     is_slli_srli_srai
+dest_shadow_alu_lts                      src_is_lui_auipc_jal 1060000                      is_lui_auipc_jal
+dest_shadow_alu_lts src_is_jalr_addi_slti_sltiu_xori_ori_andi 1060000 is_jalr_addi_slti_sltiu_xori_ori_andi
+dest_shadow_alu_lts                             src_mem_valid 1060000                             mem_valid
+dest_shadow_alu_lts                         src_instr_rdinstr 1060000                         instr_rdinstr
+dest_shadow_alu_lts                              src_instr_sw 1100000                              instr_sw
+dest_shadow_alu_lts                             src_instr_and 1100000                             instr_and
+dest_shadow_alu_lts                        src_cpuregs_wrdata 1100000                        cpuregs_wrdata
+dest_shadow_alu_lts                             src_instr_xor 1100000                             instr_xor
+dest_shadow_alu_lts                              src_instr_or 1100000                              instr_or
+dest_shadow_alu_lts                             src_instr_sub 1100000                             instr_sub
+dest_shadow_alu_lts                            src_instr_xori 1100000                            instr_xori
+dest_shadow_alu_lts                            src_is_compare 1100000                            is_compare
+dest_shadow_alu_lts                             src_alu_out_q 1100000                             alu_out_q
+dest_shadow_alu_lts                            src_latched_rd 1100000                            latched_rd
+dest_shadow_alu_lts                            src_decoded_rd 1100000                            decoded_rd
+dest_shadow_alu_lts                          src_instr_retirq 1100000                          instr_retirq
+dest_shadow_alu_lts                         src_cpuregs_write 1100000                         cpuregs_write
+dest_shadow_alu_lts    src_is_lui_auipc_jal_jalr_addi_add_sub 1100000    is_lui_auipc_jal_jalr_addi_add_sub
+dest_shadow_alu_lts                               src_alu_out 1100000                               alu_out
+dest_shadow_alu_lts                            src_instr_slti 1100000                            instr_slti
+dest_shadow_alu_lts                             src_instr_slt 1100000                             instr_slt
+dest_shadow_alu_lts                            src_instr_jalr 1100000                            instr_jalr
+dest_shadow_alu_lts                           src_instr_sltiu 1100000                           instr_sltiu
+dest_shadow_alu_lts                            src_instr_sltu 1100000                            instr_sltu
+dest_shadow_alu_lts                           src_cpuregs_rs2 1100000                           cpuregs_rs2
+dest_shadow_alu_lts                           src_decoded_rs2 1100000                           decoded_rs2
+dest_shadow_alu_lts                            src_instr_andi 1100000                            instr_andi
+dest_shadow_alu_lts                           src_alu_add_sub 1100000                           alu_add_sub
+dest_shadow_alu_lts                             src_instr_ori 1100000                             instr_ori
+dest_shadow_alu_lts                        src_is_sll_srl_sra 1110000                        is_sll_srl_sra
+dest_shadow_alu_lts                      src_compressed_instr 1120000                      compressed_instr
+dest_shadow_alu_lts                              src_instr_lw 1170000                              instr_lw
+dest_shadow_alu_lts                         src_is_lbu_lhu_lw 1240000                         is_lbu_lhu_lw
+dest_shadow_alu_lts                              src_instr_lh 1240000                              instr_lh
+dest_shadow_alu_lts                         src_latched_is_lh 1240000                         latched_is_lh
+dest_shadow_alu_lts                        src_mem_rdata_word 1240000                        mem_rdata_word
+dest_shadow_alu_lts                         src_latched_is_lb 1240000                         latched_is_lb
+dest_shadow_alu_lts                         src_latched_is_lu 1240000                         latched_is_lu
+dest_shadow_alu_lts                         src_latched_stalu 1240000                         latched_stalu
+dest_shadow_alu_lts                               src_reg_out 1240000                               reg_out
+dest_shadow_alu_lts                             src_instr_lbu 1240000                             instr_lbu
+dest_shadow_alu_lts                              src_instr_lb 1240000                              instr_lb
+dest_shadow_alu_lts                             src_instr_lhu 1240000                             instr_lhu
+dest_shadow_alu_lts                          src_mem_wordsize 1240000                          mem_wordsize
+dest_shadow_alu_lts                         src_decoded_imm_j 1370000                         decoded_imm_j
+
+src_alu_ltu
+        Destination                                    Source    Time                           Signal_Name
+dest_shadow_alu_ltu                               src_reg_op1       0                               reg_op1
+dest_shadow_alu_ltu                               src_reg_op2       0                               reg_op2
+dest_shadow_alu_ltu                               src_alu_ltu       0                               alu_ltu
+dest_shadow_alu_ltu                             src_cpu_state 1010000                             cpu_state
+dest_shadow_alu_ltu                          src_mem_do_wdata 1020000                          mem_do_wdata
+dest_shadow_alu_ltu                          src_mem_do_rdata 1020000                          mem_do_rdata
+dest_shadow_alu_ltu                       src_decoder_trigger 1020000                       decoder_trigger
+dest_shadow_alu_ltu                         src_latched_store 1030000                         latched_store
+dest_shadow_alu_ltu                           src_reg_next_pc 1030000                           reg_next_pc
+dest_shadow_alu_ltu                        src_latched_branch 1030000                        latched_branch
+dest_shadow_alu_ltu                                src_reg_pc 1030000                                reg_pc
+dest_shadow_alu_ltu                             src_mem_state 1040000                             mem_state
+dest_shadow_alu_ltu                          src_mem_do_rinst 1050000                          mem_do_rinst
+dest_shadow_alu_ltu                       src_mem_do_prefetch 1050000                       mem_do_prefetch
+dest_shadow_alu_ltu                                  src_trap 1060000                                  trap
+dest_shadow_alu_ltu                           src_decoded_rs1 1060000                           decoded_rs1
+dest_shadow_alu_ltu                             src_instr_jal 1060000                             instr_jal
+dest_shadow_alu_ltu          src_is_beq_bne_blt_bge_bltu_bgeu 1060000          is_beq_bne_blt_bge_bltu_bgeu
+dest_shadow_alu_ltu                           src_cpuregs_rs1 1060000                           cpuregs_rs1
+dest_shadow_alu_ltu                           src_is_sb_sh_sw 1060000                           is_sb_sh_sw
+dest_shadow_alu_ltu                             src_instr_lui 1060000                             instr_lui
+dest_shadow_alu_ltu                        src_instr_rdinstrh 1060000                        instr_rdinstrh
+dest_shadow_alu_ltu                           src_decoded_imm 1060000                           decoded_imm
+dest_shadow_alu_ltu                           src_mem_rdata_q 1060000                           mem_rdata_q
+dest_shadow_alu_ltu                        src_instr_rdcycleh 1060000                        instr_rdcycleh
+dest_shadow_alu_ltu                            src_do_waitirq 1060000                            do_waitirq
+dest_shadow_alu_ltu                   src_is_lb_lh_lw_lbu_lhu 1060000                   is_lb_lh_lw_lbu_lhu
+dest_shadow_alu_ltu                        src_is_alu_reg_imm 1060000                        is_alu_reg_imm
+dest_shadow_alu_ltu                           src_instr_auipc 1060000                           instr_auipc
+dest_shadow_alu_ltu                            src_instr_addi 1060000                            instr_addi
+dest_shadow_alu_ltu                src_decoder_pseudo_trigger 1060000                decoder_pseudo_trigger
+dest_shadow_alu_ltu                         src_instr_rdcycle 1060000                         instr_rdcycle
+dest_shadow_alu_ltu                     src_is_slli_srli_srai 1060000                     is_slli_srli_srai
+dest_shadow_alu_ltu src_is_jalr_addi_slti_sltiu_xori_ori_andi 1060000 is_jalr_addi_slti_sltiu_xori_ori_andi
+dest_shadow_alu_ltu                      src_is_lui_auipc_jal 1060000                      is_lui_auipc_jal
+dest_shadow_alu_ltu                         src_instr_rdinstr 1060000                         instr_rdinstr
+dest_shadow_alu_ltu                             src_mem_valid 1060000                             mem_valid
+dest_shadow_alu_ltu                              src_instr_sw 1100000                              instr_sw
+dest_shadow_alu_ltu                        src_cpuregs_wrdata 1100000                        cpuregs_wrdata
+dest_shadow_alu_ltu                             src_instr_and 1100000                             instr_and
+dest_shadow_alu_ltu                            src_instr_xori 1100000                            instr_xori
+dest_shadow_alu_ltu                             src_instr_sub 1100000                             instr_sub
+dest_shadow_alu_ltu                              src_instr_or 1100000                              instr_or
+dest_shadow_alu_ltu                         src_cpuregs_write 1100000                         cpuregs_write
+dest_shadow_alu_ltu                            src_is_compare 1100000                            is_compare
+dest_shadow_alu_ltu                             src_alu_out_q 1100000                             alu_out_q
+dest_shadow_alu_ltu                            src_latched_rd 1100000                            latched_rd
+dest_shadow_alu_ltu                            src_decoded_rd 1100000                            decoded_rd
+dest_shadow_alu_ltu                          src_instr_retirq 1100000                          instr_retirq
+dest_shadow_alu_ltu                               src_alu_out 1100000                               alu_out
+dest_shadow_alu_ltu    src_is_lui_auipc_jal_jalr_addi_add_sub 1100000    is_lui_auipc_jal_jalr_addi_add_sub
+dest_shadow_alu_ltu                             src_instr_xor 1100000                             instr_xor
+dest_shadow_alu_ltu                            src_instr_slti 1100000                            instr_slti
+dest_shadow_alu_ltu                             src_instr_slt 1100000                             instr_slt
+dest_shadow_alu_ltu                           src_instr_sltiu 1100000                           instr_sltiu
+dest_shadow_alu_ltu                            src_instr_jalr 1100000                            instr_jalr
+dest_shadow_alu_ltu                           src_decoded_rs2 1100000                           decoded_rs2
+dest_shadow_alu_ltu                           src_cpuregs_rs2 1100000                           cpuregs_rs2
+dest_shadow_alu_ltu                            src_instr_sltu 1100000                            instr_sltu
+dest_shadow_alu_ltu                            src_instr_andi 1100000                            instr_andi
+dest_shadow_alu_ltu                             src_instr_ori 1100000                             instr_ori
+dest_shadow_alu_ltu                           src_alu_add_sub 1100000                           alu_add_sub
+dest_shadow_alu_ltu                        src_is_sll_srl_sra 1110000                        is_sll_srl_sra
+dest_shadow_alu_ltu                      src_compressed_instr 1120000                      compressed_instr
+dest_shadow_alu_ltu                              src_instr_lw 1170000                              instr_lw
+dest_shadow_alu_ltu                         src_is_lbu_lhu_lw 1240000                         is_lbu_lhu_lw
+dest_shadow_alu_ltu                         src_latched_is_lb 1240000                         latched_is_lb
+dest_shadow_alu_ltu                        src_mem_rdata_word 1240000                        mem_rdata_word
+dest_shadow_alu_ltu                         src_latched_is_lh 1240000                         latched_is_lh
+dest_shadow_alu_ltu                              src_instr_lh 1240000                              instr_lh
+dest_shadow_alu_ltu                         src_latched_is_lu 1240000                         latched_is_lu
+dest_shadow_alu_ltu                               src_reg_out 1240000                               reg_out
+dest_shadow_alu_ltu                         src_latched_stalu 1240000                         latched_stalu
+dest_shadow_alu_ltu                             src_instr_lbu 1240000                             instr_lbu
+dest_shadow_alu_ltu                             src_instr_lhu 1240000                             instr_lhu
+dest_shadow_alu_ltu                              src_instr_lb 1240000                              instr_lb
+dest_shadow_alu_ltu                          src_mem_wordsize 1240000                          mem_wordsize
+dest_shadow_alu_ltu                         src_decoded_imm_j 1370000                         decoded_imm_j
+
+src_instr_slt
+          Destination             Source    Time    Signal_Name
+dest_shadow_instr_slt src_is_alu_reg_reg 1090000 is_alu_reg_reg
+
+src_cpuregs_rs1
+            Destination             Source    Time    Signal_Name
+dest_shadow_cpuregs_rs1      src_instr_sub 1080000      instr_sub
+dest_shadow_cpuregs_rs1      src_instr_lhu 1230000      instr_lhu
+dest_shadow_cpuregs_rs1        src_reg_out 1230000        reg_out
+dest_shadow_cpuregs_rs1 src_mem_rdata_word 1230000 mem_rdata_word
+dest_shadow_cpuregs_rs1   src_mem_wordsize 1230000   mem_wordsize
+dest_shadow_cpuregs_rs1  src_latched_is_lb 1230000  latched_is_lb
+dest_shadow_cpuregs_rs1  src_is_lbu_lhu_lw 1230000  is_lbu_lhu_lw
+dest_shadow_cpuregs_rs1  src_latched_is_lh 1230000  latched_is_lh
+dest_shadow_cpuregs_rs1       src_instr_lb 1230000       instr_lb
+dest_shadow_cpuregs_rs1       src_instr_lh 1230000       instr_lh
+dest_shadow_cpuregs_rs1  src_latched_is_lu 1230000  latched_is_lu
+dest_shadow_cpuregs_rs1      src_instr_lbu 1230000      instr_lbu
+dest_shadow_cpuregs_rs1  src_latched_stalu 1410000  latched_stalu
+
+src_cpuregs_wrdata
+               Destination             Source    Time    Signal_Name
+dest_shadow_cpuregs_wrdata      src_instr_sub 1070000      instr_sub
+dest_shadow_cpuregs_wrdata  src_is_lbu_lhu_lw 1220000  is_lbu_lhu_lw
+dest_shadow_cpuregs_wrdata  src_latched_is_lu 1220000  latched_is_lu
+dest_shadow_cpuregs_wrdata        src_reg_out 1220000        reg_out
+dest_shadow_cpuregs_wrdata       src_instr_lh 1220000       instr_lh
+dest_shadow_cpuregs_wrdata      src_instr_lhu 1220000      instr_lhu
+dest_shadow_cpuregs_wrdata   src_mem_wordsize 1220000   mem_wordsize
+dest_shadow_cpuregs_wrdata      src_instr_lbu 1220000      instr_lbu
+dest_shadow_cpuregs_wrdata       src_instr_lb 1220000       instr_lb
+dest_shadow_cpuregs_wrdata  src_latched_is_lb 1220000  latched_is_lb
+dest_shadow_cpuregs_wrdata  src_latched_is_lh 1220000  latched_is_lh
+dest_shadow_cpuregs_wrdata src_mem_rdata_word 1220000 mem_rdata_word
+dest_shadow_cpuregs_wrdata  src_latched_stalu 1250000  latched_stalu
+
+src_is_compare
+           Destination             Source    Time    Signal_Name
+dest_shadow_is_compare src_is_alu_reg_reg 1100000 is_alu_reg_reg
+
+src_alu_out_q
+          Destination             Source    Time    Signal_Name
+dest_shadow_alu_out_q      src_instr_sub   10000      instr_sub
+dest_shadow_alu_out_q  src_is_lbu_lhu_lw 1250000  is_lbu_lhu_lw
+dest_shadow_alu_out_q  src_latched_is_lu 1250000  latched_is_lu
+dest_shadow_alu_out_q  src_latched_is_lb 1250000  latched_is_lb
+dest_shadow_alu_out_q  src_latched_is_lh 1250000  latched_is_lh
+dest_shadow_alu_out_q       src_instr_lb 1250000       instr_lb
+dest_shadow_alu_out_q  src_latched_stalu 1250000  latched_stalu
+dest_shadow_alu_out_q      src_instr_lbu 1250000      instr_lbu
+dest_shadow_alu_out_q src_mem_rdata_word 1250000 mem_rdata_word
+dest_shadow_alu_out_q   src_mem_wordsize 1250000   mem_wordsize
+dest_shadow_alu_out_q      src_instr_lhu 1250000      instr_lhu
+dest_shadow_alu_out_q        src_reg_out 1250000        reg_out
+dest_shadow_alu_out_q       src_instr_lh 1250000       instr_lh
+dest_shadow_alu_out_q    src_cpuregs_rs2 1330000    cpuregs_rs2
+dest_shadow_alu_out_q    src_decoded_rs2 1330000    decoded_rs2
+
+src_alu_out
+        Destination                 Source    Time        Signal_Name
+dest_shadow_alu_out          src_instr_add       0          instr_add
+dest_shadow_alu_out          src_instr_sub       0          instr_sub
+dest_shadow_alu_out          src_instr_bne    1000          instr_bne
+dest_shadow_alu_out    src_is_slti_blt_slt    1000    is_slti_blt_slt
+dest_shadow_alu_out            src_alu_lts    1000            alu_lts
+dest_shadow_alu_out         src_instr_bgeu    1000         instr_bgeu
+dest_shadow_alu_out            src_alu_ltu    1000            alu_ltu
+dest_shadow_alu_out         src_instr_bltu    1000         instr_bltu
+dest_shadow_alu_out          src_instr_bge    1000          instr_bge
+dest_shadow_alu_out          src_alu_out_0    1000          alu_out_0
+dest_shadow_alu_out          src_instr_blt    1000          instr_blt
+dest_shadow_alu_out             src_alu_eq    1000             alu_eq
+dest_shadow_alu_out          src_instr_beq    1000          instr_beq
+dest_shadow_alu_out src_is_sltiu_bltu_sltu    1000 is_sltiu_bltu_sltu
+dest_shadow_alu_out     src_is_alu_reg_reg 1100000     is_alu_reg_reg
+dest_shadow_alu_out      src_is_lbu_lhu_lw 1240000      is_lbu_lhu_lw
+dest_shadow_alu_out       src_mem_wordsize 1240000       mem_wordsize
+dest_shadow_alu_out      src_latched_is_lb 1240000      latched_is_lb
+dest_shadow_alu_out      src_latched_is_lh 1240000      latched_is_lh
+dest_shadow_alu_out          src_instr_lbu 1240000          instr_lbu
+dest_shadow_alu_out     src_mem_rdata_word 1240000     mem_rdata_word
+dest_shadow_alu_out      src_latched_is_lu 1240000      latched_is_lu
+dest_shadow_alu_out      src_latched_stalu 1240000      latched_stalu
+dest_shadow_alu_out           src_instr_lh 1240000           instr_lh
+dest_shadow_alu_out          src_instr_lhu 1240000          instr_lhu
+dest_shadow_alu_out           src_instr_lb 1240000           instr_lb
+dest_shadow_alu_out            src_reg_out 1240000            reg_out
+dest_shadow_alu_out        src_cpuregs_rs2 1320000        cpuregs_rs2
+dest_shadow_alu_out        src_decoded_rs2 1320000        decoded_rs2
+
+src_alu_add_sub
+            Destination             Source    Time    Signal_Name
+dest_shadow_alu_add_sub      src_instr_sub       0      instr_sub
+dest_shadow_alu_add_sub    src_decoded_rs2 1100000    decoded_rs2
+dest_shadow_alu_add_sub    src_cpuregs_rs2 1100000    cpuregs_rs2
+dest_shadow_alu_add_sub   src_mem_wordsize 1240000   mem_wordsize
+dest_shadow_alu_add_sub      src_instr_lbu 1240000      instr_lbu
+dest_shadow_alu_add_sub  src_latched_is_lh 1240000  latched_is_lh
+dest_shadow_alu_add_sub  src_latched_is_lb 1240000  latched_is_lb
+dest_shadow_alu_add_sub  src_latched_is_lu 1240000  latched_is_lu
+dest_shadow_alu_add_sub src_mem_rdata_word 1240000 mem_rdata_word
+dest_shadow_alu_add_sub  src_latched_stalu 1240000  latched_stalu
+dest_shadow_alu_add_sub       src_instr_lh 1240000       instr_lh
+dest_shadow_alu_add_sub      src_instr_lhu 1240000      instr_lhu
+dest_shadow_alu_add_sub  src_is_lbu_lhu_lw 1240000  is_lbu_lhu_lw
+dest_shadow_alu_add_sub        src_reg_out 1240000        reg_out
+dest_shadow_alu_add_sub       src_instr_lb 1240000       instr_lb
